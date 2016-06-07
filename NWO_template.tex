@@ -1,0 +1,45 @@
+\documentclass[11pt]{MyVeni}
+
+%solve any problems with hyphenation as below
+\hyphenation{Zea-land}
+
+%add your bibtext file(s) below
+\addbibresource{my_biblio}
+
+%Use the code below to only print a specific section to your pdf.
+
+%\includeonly{
+%1_registration_form
+%2_research_proposal
+%3_cost_estimates
+%4_curriculum_vitae
+%5_list_of_publications
+%6_statements_by_applicant
+%}
+
+\begin{document}
+
+% Section 1:
+\include{1_registration_form}
+
+% Section 2:
+\newpage
+\include{2_research_proposal}
+
+% Section 3:
+\newpage
+\include{3_cost_estimates}
+
+% Section 4:
+\newpage
+\include{4_curriculum_vitae}
+
+% Section 5:
+\newpage
+\include{5_list_of_publications}
+
+% Section 6:
+\newpage
+\include{6_statements_by_applicant}
+
+\end{document}
